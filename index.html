@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Dawet Ireng Jembatan Butuh — Kuliner Khas Purworejo</title>
+    <meta name="description" content="Dawet Ireng Jembatan Butuh, minuman tradisional khas Purworejo dengan cita rasa autentik gula jawa dan santan kelapa segar. Sejak 1950-an.">
+    <meta property="og:title" content="Dawet Ireng Jembatan Butuh — Kuliner Khas Purworejo">
+    <meta property="og:description" content="Minuman tradisional khas Purworejo dengan cita rasa autentik gula jawa dan santan kelapa.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== LOADER ========== -->
+    <div id="loader" class="loader">
+        <div class="loader-inner">
+            <svg class="loader-icon" viewBox="0 0 64 64" fill="none">
+                <path class="loader-drop" d="M32 8C24 8 14 20 14 32C14 44 22 54 32 58C42 54 50 44 50 32C50 20 40 8 32 8Z" stroke="#296ef9" stroke-width="1.5" fill="none"/>
+                <path class="loader-wave" d="M22 34Q27 26 32 34Q37 42 42 34" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            </svg>
+            <div class="loader-brand">DAWET IRENG</div>
+            <div class="loader-bar"><div class="loader-fill"></div></div>
+            <div class="loader-sub">Jembatan Butuh · Purworejo</div>
+        </div>
+    </div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav id="navbar" class="navbar">
+        <a href="#hero" class="nav-logo">
+            <svg class="nav-logo-icon" viewBox="0 0 36 36" fill="none">
+                <path d="M18 3C13 3 7 11 7 19C7 27 12 33 18 36C24 33 29 27 29 19C29 11 23 3 18 3Z" fill="currentColor"/>
+                <path d="M12 20Q15 14 18 20Q21 26 24 20" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                <circle cx="14" cy="15" r="1.2" fill="#fff" opacity="0.35"/>
+            </svg>
+            <span class="nav-logo-text">Dawet Ireng</span>
+        </a>
+        <button id="nav-toggle" class="nav-hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul id="nav-links" class="nav-links">
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#keunggulan">Keunggulan</a></li>
+            <li><a href="#proses">Proses</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+            <li><a href="#pesan" class="nav-cta">PESAN SEKARANG</a></li>
+        </ul>
+    </nav>
+
+    <!-- ========== MOBILE MENU ========== -->
+    <div id="mobile-menu" class="mobile-overlay">
+        <a href="#tentang" class="mob-link">Tentang</a>
+        <a href="#keunggulan" class="mob-link">Keunggulan</a>
+        <a href="#proses" class="mob-link">Proses</a>
+        <a href="#testimoni" class="mob-link">Testimoni</a>
+        <a href="#kontak" class="mob-link">Kontak</a>
+        <a href="#pesan" class="mob-cta">Pesan Sekarang</a>
+    </div>
+
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/dawet-hero.png" alt="Dawet Ireng" class="hero-bg-img" id="hero-img">
+            <div class="hero-dim"></div>
+        </div>
+        <div class="hero-body">
+            <p class="hero-tag anim-up" data-d="0">Khas Purworejo · Sejak 1950-an</p>
+            <h1 class="hero-h1">
+                <span class="anim-up" data-d="150">Dawet</span><br>
+                <span class="hero-accent anim-up" data-d="300">Ireng</span>
+            </h1>
+            <p class="hero-sub anim-up" data-d="450">Jembatan Butuh</p>
+            <p class="hero-desc anim-up" data-d="600">Segarnya warisan rasa tradisional dari Kecamatan Butuh, Kabupaten Purworejo, Jawa Tengah</p>
+            <div class="hero-btns anim-up" data-d="750">
+                <a href="#pesan" class="btn btn-fill">PESAN SEKARANG</a>
+                <a href="#tentang" class="btn btn-ghost">JELAJAHI</a>
+            </div>
+        </div>
+        <div class="hero-scroll anim-up" data-d="900">
+            <div class="scroll-bar"></div>
+            <span>Scroll</span>
+        </div>
+        <div class="chevron chevron-l"></div>
+        <div class="chevron chevron-r"></div>
+    </section>
+
+    <!-- ========== TENTANG ========== -->
+    <section id="tentang" class="sec sec-white">
+        <div class="container">
+            <div class="grid-2">
+                <div class="col-text">
+                    <span class="eyebrow reveal">01 — TENTANG</span>
+                    <h2 class="sec-h2 reveal">Minuman yang Lahir dari<br><em class="accent">Kearifan Lokal</em></h2>
+                    <p class="body-text reveal">Dawet Ireng Jembatan Butuh dirintis oleh Mbah Ahmad Dansri sejak tahun 1950-an. Keunikan warna hitamnya berasal dari abu jerami padi yang dibakar dan dihaluskan — bukan pewarna buatan.</p>
+                    <p class="body-text reveal">Terletak di Dusun Ketundan, Desa Butuh, Kecamatan Butuh — tepat di sisi timur Jembatan Butuh di jalur Purworejo–Kebumen. Awalnya dijajakan berkeliling dari sawah ke sawah untuk para petani.</p>
+                    <div class="stats reveal">
+                        <div class="stat"><strong>70+</strong><span>Tahun Berdiri</span></div>
+                        <div class="stat"><strong>100%</strong><span>Bahan Alami</span></div>
+                        <div class="stat"><strong>Khas</strong><span>Purworejo</span></div>
+                    </div>
+                </div>
+                <div class="col-img reveal-img">
+                    <div class="frame">
+                        <img src="images/jembatan-butuh.png" alt="Jembatan Butuh Purworejo" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== UVP ========== -->
+    <section id="uvp" class="sec sec-cloud">
+        <div class="container">
+            <span class="eyebrow reveal center">UNIQUE VALUE PROPOSITION</span>
+            <h2 class="sec-h2 reveal center">Kenapa Dawet Ireng<br><em class="accent">Jembatan Butuh?</em></h2>
+            <div class="card-grid-4">
+                <div class="card reveal" data-d="0">
+                    <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 2C9 2 6 5 6 9c0 3 2 5.5 4 7l-1 6h6l-1-6c2-1.5 4-4 4-7 0-4-3-7-6-7z"/><path d="M9 22h6"/></svg></div>
+                    <h3>Warna Hitam Alami</h3>
+                    <p>Dari abu jerami padi — bukan pewarna buatan. Ciri khas yang membedakan dari dawet lainnya.</p>
+                </div>
+                <div class="card reveal" data-d="100">
+                    <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 20L8 10 12 14 17 7 21 20z"/><circle cx="17" cy="5" r="2"/><path d="M3 20h18"/></svg></div>
+                    <h3>Identitas Lokal</h3>
+                    <p>Nama unik "Jembatan Butuh" mudah diingat dan meningkatkan daya tarik promosi digital.</p>
+                </div>
+                <div class="card reveal" data-d="200">
+                    <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="7" r="4"/><path d="M5 21c0-4 3-7 7-7s7 3 7 7"/></svg></div>
+                    <h3>Semua Kalangan</h3>
+                    <p>Wisatawan, generasi muda, pecinta kuliner tradisional, hingga masyarakat lokal Purworejo.</p>
+                </div>
+                <div class="card reveal" data-d="300">
+                    <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M9 2v1M15 2v1"/><circle cx="12" cy="18" r="1"/></svg></div>
+                    <h3>Mudah Dipesan</h3>
+                    <p>Pemesanan via WhatsApp Business, Instagram, TikTok, dan Google Maps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== KEUNGGULAN — STICKY HORIZONTAL ========== -->
+    <section id="keunggulan" class="pin-outer">
+        <div class="pin-inner">
+            <div class="pin-header">
+                <div class="container">
+                    <span class="eyebrow reveal on-dark">02 — KEUNGGULAN</span>
+                    <h2 class="sec-h2 reveal on-dark">Keunggulan<br><em class="accent-lt">Produk Kami</em></h2>
+                </div>
+            </div>
+            <div class="htrack" id="htrack">
+                <div class="hcard">
+                    <div class="hcard-img"><img src="images/dawet-hero.png" alt="Resep Autentik" loading="lazy"></div>
+                    <div class="hcard-body"><span class="hcard-n">01</span><h3>Resep Tradisional Autentik</h3><p>Diwariskan turun-temurun sejak 1950-an oleh Mbah Ahmad Dansri. Resep dan cita rasa khas yang sulit ditiru.</p></div>
+                </div>
+                <div class="hcard">
+                    <div class="hcard-img">
+                        <img src="images/dawet-ingredients.png" alt="Bahan Baku Dawet Ireng" loading="lazy">
+                    </div>
+                    <div class="hcard-body"><span class="hcard-n">02</span><h3>Bahan Baku Premium</h3><p>Gula jawa asli dari nira kelapa, santan kelapa murni segar, dan abu jerami padi untuk warna hitam alami.</p></div>
+                </div>
+                <div class="hcard">
+                    <div class="hcard-img"><img src="images/dawet-preparation.png" alt="Handmade" loading="lazy"></div>
+                    <div class="hcard-body"><span class="hcard-n">03</span><h3>Handmade dengan Cinta</h3><p>Setiap porsi dibuat manual tanpa mesin. Tekstur dan rasa yang tidak bisa ditiru produksi massal.</p></div>
+                </div>
+                <div class="hcard">
+                    <div class="hcard-img">
+                        <img src="images/dawet-serving.png" alt="Dawet Ireng Higienis" loading="lazy">
+                    </div>
+                    <div class="hcard-body"><span class="hcard-n">04</span><h3>Higienis &amp; Aman</h3><p>Proses produksi bersih dengan kemasan food-grade untuk menjaga kualitas hingga tangan konsumen.</p></div>
+                </div>
+                <div class="hcard">
+                    <div class="hcard-img"><img src="images/jembatan-butuh.png" alt="Oleh-Oleh" loading="lazy"></div>
+                    <div class="hcard-body"><span class="hcard-n">05</span><h3>Oleh-Oleh Favorit</h3><p>Buah tangan favorit wisatawan di jalur Purworejo–Kebumen. Ramai dikunjungi terutama saat musim liburan.</p></div>
+                </div>
+            </div>
+            <div class="hprogress"><div class="hprogress-bar" id="hprogress"></div></div>
+        </div>
+    </section>
+
+    <!-- ========== PROSES & TARGET ========== -->
+    <section id="proses" class="sec sec-white">
+        <div class="container">
+            <div class="grid-2 reverse">
+                <div class="col-img reveal-img">
+                    <div class="frame"><img src="images/dawet-preparation.png" alt="Proses Pembuatan" loading="lazy"></div>
+                </div>
+                <div class="col-text">
+                    <span class="eyebrow reveal">03 — PROSES &amp; TARGET</span>
+                    <h2 class="sec-h2 reveal">Dari Dapur Tradisional<br><em class="accent">ke Tangan Anda</em></h2>
+                    <p class="body-text reveal">Jerami padi dibakar menjadi abu halus yang memberikan warna hitam khas. Abu dicampur tepung beras lalu dicetak menjadi cendol dengan cetakan tradisional. Gula jawa direbus hingga menjadi sirup kental, disajikan bersama santan kelapa segar dan es batu.</p>
+                    <div class="tags reveal">
+                        <h4 class="tags-label">Target Pasar</h4>
+                        <div class="tag-list">
+                            <span class="tag">Wisatawan ke Purworejo</span>
+                            <span class="tag">Generasi Muda</span>
+                            <span class="tag">Pecinta Kuliner Tradisional</span>
+                            <span class="tag">Keluarga Indonesia</span>
+                            <span class="tag">Pelaku Bisnis Oleh-Oleh</span>
+                            <span class="tag">Komunitas Foodie</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== STRATEGI DIGITAL ========== -->
+    <section id="strategi" class="sec sec-cloud">
+        <div class="container">
+            <span class="eyebrow reveal center">STRATEGI DIGITAL</span>
+            <h2 class="sec-h2 reveal center">Channels &amp; Promosi<br><em class="accent">Menjangkau Luas</em></h2>
+            <div class="card-grid-4">
+                <div class="card reveal" data-d="0">
+                    <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="18" cy="6" r="1.5"/></svg></div>
+                    <h3>Instagram &amp; TikTok</h3>
+                    <p>Konten video pendek proses pembuatan dan review menarik yang viral di media sosial.</p>
+                </div>
+                <div class="card reveal" data-d="100">
+                    <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.4 8.4 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.4 8.4 0 01-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 01-.9-3.8 8.5 8.5 0 014.7-7.6A8.4 8.4 0 0112.5 3h.5a8.5 8.5 0 018 8v.5z"/></svg></div>
+                    <h3>WhatsApp Business</h3>
+                    <p>Pemesanan langsung dan layanan pelanggan responsif melalui WhatsApp resmi.</p>
+                </div>
+                <div class="card reveal" data-d="200">
+                    <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10A15.3 15.3 0 0112 2z"/></svg></div>
+                    <h3>Google Maps &amp; Marketplace</h3>
+                    <p>Hadir di Shopee, Tokopedia, GoFood, Google Maps, dan Google Business Profile.</p>
+                </div>
+                <div class="card reveal" data-d="300">
+                    <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+                    <h3>Kolaborasi Influencer</h3>
+                    <p>Food blogger dan travel vlogger untuk review autentik & meningkatkan interaksi sosial media.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PARALLAX QUOTE ========== -->
+    <section class="parallax-sec" id="parallax-sec">
+        <div class="parallax-bg">
+            <img src="images/dawet-serving.png" alt="Dawet Ireng Serving" class="parallax-img" id="parallax-img" loading="lazy">
+        </div>
+        <div class="parallax-dim"></div>
+        <div class="parallax-content">
+            <p class="parallax-q reveal">"Segarnya bukan cuma di lidah,<br>tapi juga di hati."</p>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONI ========== -->
+    <section id="testimoni" class="sec sec-white">
+        <div class="container">
+            <span class="eyebrow reveal center">04 — TESTIMONI</span>
+            <h2 class="sec-h2 reveal center">Mereka Sudah<br><em class="accent">Merasakan</em></h2>
+            <div class="testi-grid">
+                <div class="testi reveal" data-d="0">
+                    <div class="testi-photo"><img src="images/review-1.png" alt="Foto review Rina" loading="lazy"></div>
+                    <div class="testi-body">
+                        <div class="testi-stars">★★★★★</div>
+                        <p>"Dawet irengnya enak banget! Gula jawanya kerasa banget, santannya juga gurih. Wajib coba kalau ke Purworejo!"</p>
+                        <div class="testi-who">
+                            <div class="testi-av">RA</div>
+                            <div><strong>Rina Agustin</strong><span>Wisatawan dari Jakarta</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi reveal" data-d="150">
+                    <div class="testi-photo"><img src="images/review-2.png" alt="Foto review Budi" loading="lazy"></div>
+                    <div class="testi-body">
+                        <div class="testi-stars">★★★★★</div>
+                        <p>"Selalu beli untuk oleh-oleh setiap pulang kampung. Rasanya konsisten enak dari dulu. Packaging-nya juga sudah bagus."</p>
+                        <div class="testi-who">
+                            <div class="testi-av">BP</div>
+                            <div><strong>Budi Prasetyo</strong><span>Perantau Purworejo</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi reveal" data-d="300">
+                    <div class="testi-photo"><img src="images/review-3.png" alt="Foto review Sri" loading="lazy"></div>
+                    <div class="testi-body">
+                        <div class="testi-stars">★★★★★</div>
+                        <p>"Beda sama dawet biasa, warnanya hitam alami dan rasanya lebih rich. Anak-anak saya juga suka banget!"</p>
+                        <div class="testi-who">
+                            <div class="testi-av">SW</div>
+                            <div><strong>Sri Wahyuni</strong><span>Ibu Rumah Tangga</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section id="pesan" class="sec sec-ink cta-sec">
+        <div class="container">
+            <div class="cta-grid reveal">
+                <div class="cta-text">
+                    <span class="eyebrow on-dark">PESAN SEKARANG</span>
+                    <h2 class="cta-h2">Satu Tegukan,<br>Sejuta Kenangan</h2>
+                    <p class="cta-desc">Pesan langsung melalui WhatsApp kami dan dapatkan promo spesial untuk pembelian pertama Anda!</p>
+                    <div class="cta-btns">
+                        <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20mau%20pesan%20Dawet%20Ireng%20Jembatan%20Butuh" class="btn btn-fill btn-lg" target="_blank" rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            PESAN VIA WHATSAPP
+                        </a>
+                        <a href="https://shopee.co.id" class="btn btn-ghost-lt btn-lg" target="_blank" rel="noopener">BELI DI SHOPEE</a>
+                    </div>
+                    <div class="promo-row">
+                        <span class="promo-badge">PROMO</span>
+                        <span class="promo-txt">Gratis ongkir se-Jawa untuk pembelian min. 5 porsi!</span>
+                    </div>
+                </div>
+                <div class="cta-img">
+                    <img src="images/dawet-serving.png" alt="Dawet Ireng" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer id="kontak" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo-row">
+                        <svg class="footer-logo-icon" viewBox="0 0 36 36" fill="none">
+                            <path d="M18 3C13 3 7 11 7 19C7 27 12 33 18 36C24 33 29 27 29 19C29 11 23 3 18 3Z" fill="#296ef9"/>
+                            <path d="M12 20Q15 14 18 20Q21 26 24 20" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                        </svg>
+                        <span>Dawet Ireng<br>Jembatan Butuh</span>
+                    </div>
+                    <p class="footer-desc">Segarnya Warisan Rasa Tradisional dari Purworejo, Jawa Tengah. Sejak tahun 1950-an.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigasi</h4>
+                    <a href="#tentang">Tentang</a>
+                    <a href="#keunggulan">Keunggulan</a>
+                    <a href="#proses">Proses</a>
+                    <a href="#testimoni">Testimoni</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <a href="https://wa.me/6281234567890" target="_blank">WA: 0812-3456-7890</a>
+                    <a href="mailto:dawetireng@gmail.com">dawetireng@gmail.com</a>
+                    <a href="#">Dusun Ketundan, Desa Butuh, Kec. Butuh, Purworejo</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Media Sosial</h4>
+                    <div class="socials">
+                        <a href="https://instagram.com/dawetireng_jbpurworejo" target="_blank" aria-label="Instagram" class="soc-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="18" cy="6" r="1.5"/></svg>
+                        </a>
+                        <a href="https://tiktok.com/@dawetireng_jb" target="_blank" aria-label="TikTok" class="soc-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 010-5.78c.27 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 000 12.68 6.34 6.34 0 006.34-6.34V9.38a8.16 8.16 0 004.78 1.52V7.46a4.82 4.82 0 01-1.02-.77z"/></svg>
+                        </a>
+                        <a href="https://facebook.com/dawetirengpurworejo" target="_blank" aria-label="Facebook" class="soc-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://wa.me/6281234567890" target="_blank" aria-label="WhatsApp" class="soc-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dawet Ireng Jembatan Butuh — Purworejo, Jawa Tengah</p>
+                <p>Dibuat dengan ❤️ untuk melestarikan warisan kuliner Nusantara</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
